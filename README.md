@@ -1,2 +1,3 @@
 # auto_test_course
-test
+
+тестовое описание, coming soon...
