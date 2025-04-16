@@ -21,10 +21,10 @@ def test_guest_should_see_login_link(browser, link):
     time.sleep(2)
 
     email = browser.find_element(By.ID, "id_login_email")
-    email.send_keys("qwerasdfgzxcv20@gmail.com")
+    email.send_keys("email")
 
     password = browser.find_element(By.ID, "id_login_password")
-    password.send_keys("tiger2004")
+    password.send_keys("password")
 
     l_button = browser.find_element(By.CSS_SELECTOR, "#login_form > button")
     l_button.click()
